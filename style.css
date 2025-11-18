@@ -1,0 +1,75 @@
+@font-face {
+    font-family: 'mini';
+    src: url('font/minecraft_font.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'mini', sans-serif;
+    background-image: url(midia/96345.jpg);
+}
+header{
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgb(77, 105, 77);
+    color: rgb(54, 41, 34);
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+}
+footer{
+    background-image: url(midia/a5ae11de9f6bfa0376e2421ff0bc890f.jpg);
+    padding: 30px;
+    color: rgb(78, 62, 49);
+    background-repeat: repeat;
+}
+ul li a{
+    text-decoration: none;
+    color: rgb(56, 44, 36);
+    transition: color 0.3s;
+    font-family: 'mini', sans-serif;
+}
+.logo{
+    font-size: 24px;
+}
+ul{
+    list-style: none;
+}
+ul li{
+    display: inline-block;
+    margin-right: 20px;
+}
+ul li a:hover{
+    color: rgb(218, 25, 25);
+}
+img{
+    width: 30px;
+    height: 30px;
+}
+#Redstone_po{
+    width: -100%;
+    position: left;
+    color: #fff;
+    padding: 20px;
+    margin-top: 50px;
+}
+
+#Redstone_po_texto{
+        background-color: rgb(50, 50, 50);
+        width: 300px;               
+        height: 300px;              
+        border: 2px solid #000;     
+        padding: 10px;              
+        box-sizing: border-box;     
+        overflow: auto;
+    
+}
