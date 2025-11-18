@@ -1,0 +1,55 @@
+header{
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: transparent;
+    color: rgb(158, 115, 92);
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+}
+ul li a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    transition: color 0.3s;
+    font-family: 'mini', sans-serif;
+}
+ul{
+    list-style: none;
+}
+ul li{
+    display: inline-block;
+    margin-right: 20px;
+}
+ul li img{
+    width: 30px;
+    height: 30px;
+}
+h1{
+    color: white;
+}
+p{
+    color: white;
+}
+#son{
+    margin-top: 50px;
+}
+section{
+    margin-top: 70px;
+}
+h2{
+    color: white;
+}
+video{
+    height: 576px;
+    width: 720px;
+}
+#edit{
+    display: flex;
+    margin-left: 400px;
+}
+footer{
+    margin-top: 90px;
+}
